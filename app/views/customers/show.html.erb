@@ -1,0 +1,19 @@
+<% if flash[:notice].present? %>
+  <p><%= flash[:notice] %></p>
+<% end %>
+
+
+<p>
+  <strong>Nome</strong>
+  <%= @customer.name %>
+</p>
+
+<p>
+  <strong>Email</strong>
+  <%= @customer.email %>
+</p>
+
+<p>
+  <strong>Telefone</strong>
+  <%= @customer.phone %>
+</p>
