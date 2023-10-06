@@ -35,6 +35,8 @@ group :development, :test do
   gem 'rspec-rails', git: 'https://github.com/rspec/rspec-rails', branch: "4-0-maintenance"
   gem 'capybara'
   gem 'faker'
+  gem 'selenium-webdriver', '4.0.0'
+  gem 'factory_bot_rails'
 end
 
 group :development do
